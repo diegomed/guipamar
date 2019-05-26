@@ -43,7 +43,7 @@
 	// Nav Panel.
 
 		// Button.
-			$(
+		/*	$(
 				'<div id="navButton">' +
 					'<a href="#navPanel" class="toggle"></a>' +
 				'</div>'
@@ -51,7 +51,7 @@
 				.appendTo($body);
 
 		// Panel.
-			$(
+			 $(
 				'<div id="navPanel">' +
 					'<nav>' +
 						$('#nav').navList() +
@@ -73,7 +73,7 @@
 		// Fix: Remove navPanel transitions on WP<10 (poor/buggy performance).
 			if (browser.os == 'wp' && browser.osVersion < 10)
 				$('#navButton, #navPanel, #page-wrapper')
-					.css('transition', 'none');
+					.css('transition', 'none'); */
 
 	// Header.
 		if (!browser.mobile
