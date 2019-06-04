@@ -1969,11 +1969,16 @@ input, select, textarea {
 			margin: 0 0 1.5em 0;
 			opacity: 0.35;
 			text-align: center;
+			color: #7c8081
 		}
 
 			.icon.featured:before {
 				font-size: 5em;
 				line-height: 1em;
+			}
+
+			.icon.featured:hover {
+				color: #3fb1a3;
 			}
 
 		.icon > .label {
