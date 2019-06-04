@@ -1852,7 +1852,6 @@ input, select, textarea {
 	}
 
 		.image:before {
-			background: url("images/overlay.png");
 			content: '';
 			height: 100%;
 			left: 0;
@@ -1873,6 +1872,10 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			margin: 0 0 2em 0;
+		}
+
+		.image.featured.on-hover:hover {
+			opacity: 0.5;
 		}
 
 			.image.featured img {
@@ -1978,6 +1981,14 @@ input, select, textarea {
 			}
 
 			.icon.featured:hover {
+				color: #3fb1a3;
+			}
+
+			.icon.fa-info, .icon.fa-ship {
+				color: #7c8081;
+			}
+
+			.icon.fa-info:hover, .icon.fa-ship:hover {
 				color: #3fb1a3;
 			}
 

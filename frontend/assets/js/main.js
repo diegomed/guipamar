@@ -40,6 +40,10 @@
 			expandMode: (browser.mobile ? 'click' : 'hover')
 		});
 
+		$('.alert-window').click(function() {
+			alert("Estas por abandonar el sitio Guipamar");
+		});
+
 	// Nav Panel.
 
 		// Button.
