@@ -1981,7 +1981,7 @@ input, select, textarea {
 			}
 
 			.icon.featured:hover {
-				color: #3fb1a3;
+				color: #c81e65;
 			}
 
 			.icon.fa-info, .icon.fa-ship {
@@ -1989,7 +1989,11 @@ input, select, textarea {
 			}
 
 			.icon.fa-info:hover, .icon.fa-ship:hover {
-				color: #3fb1a3;
+				color: #c81e65;
+			}
+			
+			.icon.fa-whatsapp, .icon.fa-envelope, .icon.fa-map-marker {
+				color: #c81e65;
 			}
 
 		.icon > .label {
@@ -2167,8 +2171,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		button.primary,
 		.button.primary {
-			background: #83d3c9;
-			border-color: #83d3c9;
+			background: #c81e65;
+			border-color: #c81e65;
 			color: #fff !important;
 		}
 
@@ -2177,8 +2181,8 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background: #96dad1 !important;
-				border-color: #96dad1 !important;
+				background: #c24e7e !important;
+				border-color: #c24e7e !important;
 			}
 
 		input[type="button"].fit,
